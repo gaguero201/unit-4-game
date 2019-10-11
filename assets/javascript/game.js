@@ -123,17 +123,6 @@ $(document).ready(function() {
 			alert("YOU WIN, congratulations!!");
 		}
 
-		if (initialUserScore > targetNum) {
-			initialUserScore = 0;
-			losses++;
-			$("#lossCount").html(losses);
-			targetNum = targetNumChooser();
-			$("#targetNum").html(targetNum);
-			alert("YOU LOSE, try again!");
-			
-		}
-
-		
 		});
 
 	});
